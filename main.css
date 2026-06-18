@@ -1,0 +1,438 @@
+@charset "Shift_JIS";
+
+body, h1, h2, h3, h4, h5, h6,
+p, pre, dl, dt, dd, ul, ol, li,
+table, tr, th, td, blockquote
+	{
+	line-height: 160%;
+ 	}
+
+body	{
+	margin:0.5em;
+	padding:0;
+	color:black;
+	background-color:#BFCFDF;
+	}
+
+h1	{
+	font-size:220%;
+	font-style:normal;
+	font-weight:bold;
+	text-align:left;
+	border-style:solid;
+	border-width:thin medium medium thin;
+	margin:1em 0em 0.5em 0em;
+	padding:0.2em 0.5em;
+	background-color:#b1c9df;
+	border-color:#3660A2;
+	}
+
+h2	{
+	font-size:150%;
+	font-style:normal;
+	font-weight:bold;
+	text-align:center;
+	border-style:solid;
+	border-width:thin 0;
+	margin:1.5em 0em 0.5em 0em;
+	padding:0.1em 1em;
+	background-color:#b1c9df;
+	border-color:#3660A2;
+	}
+
+h3	{
+	font-size:125%;
+	font-style:normal;
+	font-weight:bold;
+	text-align:left;
+	border-style:solid solid;
+	border-width:thin 0 thin thick;
+	margin:1.5em 0em 0.5em 0em;
+	padding:0.1em 0.8em;
+	background-color:#b1c9df;
+	border-color:#3660A2;
+	}
+
+h4	{
+	font-size:110%;
+	font-style:normal;
+	font-weight:bold;
+	text-align:left;
+	border-style:solid;
+	border-width:0 0 thin 0;
+	margin:1.5em 0.5em 0.1em 0.5em;
+	padding:0.1em 0.5em;
+	background-color:transparent;
+	border-color:#3660A2;
+	}
+
+h5	{
+	font-size:100%;
+	font-style:normal;
+	font-weight:bold;
+	text-align:left;
+	border-style:solid;
+	border-width:0 0 0 medium;
+	margin:1.5em 0.5em 0.1em 1em;
+	padding:0.1em 0.5em;
+	background-color:transparent;
+	border-color:#3660A2;
+	}
+
+h6	{
+	font-size:80%;
+	font-style:normal;
+	font-weight:bold;
+	text-align:left;
+	border-style:none
+	border-width:0;
+	margin:1.5em 0.5em 0.1em 1.5em;
+	padding:0.1em 0.5em;
+	background-color:transparent;
+	border-color:#3660A2;
+  text-decoration:underline;
+	}
+
+p	{
+/*    text-indent:1em;*/
+	font-style:normal;
+	font-weight:normal;
+	margin:1em 1em;
+	padding:0.1em 0.1em;
+	text-align:left;
+	}
+
+a	{
+	text-decoration:none;
+	}
+
+a:link	{
+	text-decoration:underline;
+	color:#0033FF;
+	}
+a:visited	{
+	text-decoration:underline;
+	color:#000080;
+	}
+a:hover	{
+	text-decoration:underline;
+	color:#FF4500;
+	}
+a:focus	{
+	text-decoration:underline;
+	color:#FF4500;
+	}
+a:active	{
+	text-decoration:underline;
+	color:#800080;
+	}
+
+dl	{
+	margin:1em 2em 1em 1em;
+	padding:0;
+	}
+
+dt	{
+	margin:0.6em 0em 0.3em 0.5em;
+	padding:0.1em 0.5em;
+	border-style:dotted;
+	border-width:0;
+	font-weight:bold;
+	background-color:#AFC6D9;
+	border-color:#3660A2;
+	}
+
+dt ul	{
+	margin:0.1em 0.1em;
+	padding:0.1em;
+	}
+
+dd	{
+	margin:0.3em 0 0.4em 0.5em;
+	padding:0 0 0 0.5em;
+	}
+
+dd dl	{
+	margin:0;
+	padding:0;
+	}
+
+ol	{
+	margin:1em 2em 1em 2em;
+	padding:0;
+	}
+
+ol li	{
+	margin:0.3em 0 0.4em 1em;
+	padding:0;
+	}
+
+li ol	{
+	margin:0;
+	padding:0;
+	}
+
+ul	{
+	margin:1em 2em 1em 2em;
+	padding:0;
+	}
+
+ul li	{
+	margin:0.3em 0 0.4em 1em;
+	padding:0;
+	}
+
+li ul	{
+	margin:0;
+	padding:0;
+	}
+
+del	{
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:line-through;
+	color:#778899;
+	}
+
+del a:link, del a:visited	{
+	color:#778899;
+	}
+
+ins	{
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:underline;
+	}
+
+img	{
+	border-width:1px;
+	}
+
+em	{
+	font-style:normal;
+	font-weight:bold;
+	color:black;
+	}
+
+strong	{
+	font-style:normal;
+	font-weight:bold;
+	color:#e22222;
+	}
+
+blockquote	{
+	font-style:normal;
+	font-weight:normal;
+	border-style:dotted;
+	border-width:thin;
+	margin:1.5em 3em;
+	padding:0.5em 0.5em;
+	background-color:#b7c7d7;
+	border-color:#3660A2;
+	font-size: 100%;
+	}
+
+q	{
+	font-style:normal;
+	font-weight:normal;
+	quotes:"Åu" "Åv";
+	color:#B22222;
+	background-color:#b7c7d7;
+	}
+
+q:before	{
+	content:open-quote;
+	}
+
+q:after	{
+	content:close-quote;
+	}
+
+pre	{
+	font-family: monospace;
+	border-style:solid;
+	border-width:thin;
+	margin:1.5em 3em 1.5em 3em;
+	padding:1em;
+	border-color:#006400;
+	overflow: auto;
+	}
+
+table	{
+	border-style:solid;
+	border-color:#3660A2;
+	border-width:medium 0;
+	background-color:transparent;
+	border-collapse: collapse;
+	empty-cells:show;
+	margin:auto;
+	}
+
+tr	{
+	border-style:solid;
+	border-color:#3660A2;
+	border-width:thin 0;
+	background-color:transparent;
+	padding:0.5em;
+	text-align:center;
+	font-weight:normal;
+	}
+
+td	{
+	border-style:solid;
+	border-color:#3660A2;
+	border-width:thin 0;
+	background-color:transparent;
+	padding:0.5em 1em;
+	text-align:center;
+	font-weight:normal;
+	}
+
+th	{
+	border-style:solid;
+	border-color:#3660A2;
+	border-width:medium 0;
+	background-color:transparent;
+	padding:0.5em 1em;
+	text-align:center;
+	font-weight:bold;
+	font-size:85%;
+	}
+
+caption	{
+	border-style:none;
+	padding:0.5em 1em;
+	caption-side:top;
+	text-align:center;
+	font-size:100%;
+	font-weight:normal;
+	}
+
+
+/* Class, ID */
+
+tr.emphasis, tr.emphasis th, tr.emphasis td	{
+	background-color:#99BBEE;
+	}
+
+td.numeric	{
+	text-align:right;
+	}
+
+div.form	{
+	text-align:center;
+	margin:1em 0;
+	}
+
+.headerfooter, .header, .footer	{
+	border-style:solid;
+	border-width:thin;
+	margin:1em 0em;
+	padding:0.5em 1em;
+	background-color:#CACACA;
+	border-color:#3660A2;
+	}
+
+.link	{
+	border-style:solid;
+	border-width:thin;
+	margin:1.5em 1em 1em 1em;
+	padding:0.5em 1em;
+	background-color:#C1CDCD;
+	border-color:#548B54;
+	}
+
+.AA, .AA *	{
+	line-height:100%;
+	}
+
+.aa, .aa *	{
+	line-height:100%;
+	}
+
+.digression	{
+	margin:0em 1em;
+	font-size: 80%;
+	color:#555555;
+	}
+
+
+/* Smartphone */
+
+@media only screen and (max-width: 480px) and (orientation:portrait) {
+
+	body {
+		margin: 0em;
+	}
+
+	h1	{
+		margin: 0.5em 0em;
+		padding: 0em 0.5em;
+		font-size: 150%;
+	}
+
+	h2	{
+		margin: 1em 0em 0.5em 0em;
+		padding: 0em 0.5em;
+		font-size: 120%;
+	}
+
+	h3	{
+		margin: 1em 0em 0.5em 0em;
+		padding: 0em 0.5em;
+		font-size: 110%;
+	}
+
+	h4	{
+		margin: 1em 0.5em 0.1em 0.5em;
+		padding: 0em;
+		font-size: 100%;
+	}
+
+	h5	{
+		margin: 1em 0.5em 0.1em 1em;
+		padding: 0em 0.5em;
+		font-size: 80%;
+	}
+
+	h6{
+		margin: 1em 0.5em 0.1em 1.5em;
+		padding: 0em 0.5em;
+		font-size: 80%;
+	}
+
+	p {
+		margin: 1em 0.5em;
+		padding: 0em;
+	}
+
+	ul,ol {
+		margin: 1em 0.5em 1em 1em;
+		padding: 0em;
+	}
+
+	dl {
+		margin: 1em 0.5em 1em 0em;
+		padding: 0em;
+	}
+
+	blockquote {
+		margin: 1em 0.5em;
+		padding: 0em;
+	}
+
+	pre {
+		margin: 1em 0.5em;
+		padding: 0.5em;
+		overflow: visible;
+	}
+
+}
+
+@-moz-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
